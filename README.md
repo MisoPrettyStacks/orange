@@ -1,5 +1,11 @@
 #  Engine
 
+
+<img width="842" height="857" alt="linkss" src="https://github.com/user-attachments/assets/c1d2e6b1-83f5-4f1f-9b58-d969793982f1" />
+
+
+
+
 > **MISOPRETTY'S 🔮, KINDA** — an AI-powered forecasting workbench for asking specific, resolvable questions and getting a structured, evidence-aware forecast.
 
 This is a rebuild of the original Replit version as a **single static site** — a React app that calls an LLM directly from the visitor's browser and keeps forecast history in `localStorage`. No server, no database, and (using the default settings) no API cost either.
