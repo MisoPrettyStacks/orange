@@ -1,4 +1,4 @@
-# Superforecaster Engine
+#  Engine
 
 > **MISOPRETTY'S 🔮, KINDA** — an AI-powered forecasting workbench for asking specific, resolvable questions and getting a structured, evidence-aware forecast.
 
