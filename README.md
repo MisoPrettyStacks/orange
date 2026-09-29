@@ -8,17 +8,17 @@
 
 > **MISOPRETTY'S 🔮, KINDA** — an AI-powered forecasting workbench for asking specific, resolvable questions and getting a structured, evidence-aware forecast.
 
-This is a rebuild of the original Replit version as a **single static site** — a React app that calls an LLM directly from the visitor's browser and keeps forecast history in `localStorage`. No server, no database, and (using the default settings) no API cost either.
+This is a rebuild of the original - version as a **single static site** — a React app that calls an LLM directly from the visitor's browser and keeps forecast history in `localStorage`. No server, no database, and (using the default settings) no API cost either.
 
 ### What changed from the original
 
-| Original (Replit) | This version |
+| Original (-) | This version |
 |---|---|
 | Express API server | none — deleted |
 | PostgreSQL forecast history | browser `localStorage` |
-| Replit-managed Anthropic credential | your own **OpenRouter** API key, entered once in Settings, stored only in your browser |
+| --managed Anthropic credential | your own **OpenRouter** API key, entered once in Settings, stored only in your browser |
 | Paid Claude model | `openrouter/free` — OpenRouter's zero-cost router, $0/M tokens |
-| Deployed on Replit | static build, deployed on GitHub Pages via GitHub Actions |
+| Deployed on - | static build, deployed on GitHub Pages via GitHub Actions |
 
 The structured Tetlock-style prompt (Question Triage, CHAMP framework, Final Forecast, Key Uncertainties), live streaming, and the retro-cyberpunk terminal-zine look are preserved.
 
