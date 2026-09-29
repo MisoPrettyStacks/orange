@@ -1,3 +1,8 @@
+#
+
+⚠️ Personal Research Experiment Financial Disclaimer & Liability Waiver:
+This is not Tool or Service: This is a private, experimental sandbox, not intended for outside or public use, replication or distribution. It is not a financial tool, software service, or product designed for public use. Not Financial Advice: The author is not a licensed financial advisor, accountant, or broker. Nothing in this repository constitutes professional financial, investment, or legal advice. No Warranties: This repository is provided "as-is" for display purposes only. The author makes no representations or warranties of any kind regarding the accuracy, completeness, or reliability of the data, code, or experimental models. Absolute Limitation of Liability: Under no circumstances shall the author be liable for any claims, damages, or financial losses (direct or indirect) if you violate these terms and attempt to use, replicate, or rely on any part of this experiment.
+
 #  Engine
 
 
@@ -77,3 +82,8 @@ src/
 
 - Current free model slugs change over time as OpenRouter onboards/retires providers — check [openrouter.ai/models?max_price=0](https://openrouter.ai/models?max_price=0) if `openrouter/free` ever feels inconsistent and you want to pin one specific model.
 - History is per-browser, per-device — clearing browser data clears it. There's no account system and nothing syncs across devices, by design (that's what keeps this free and serverless).
+
+
+Made with 💖 by: @MisoPrettyStacks
+
+@IGotGlitterOnMe on X
