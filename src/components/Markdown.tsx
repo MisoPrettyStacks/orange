@@ -10,7 +10,7 @@ function emojiFor(headerText: string): string {
   if (t.includes("CHAMP") || t.includes("ANALYSIS")) return "🌐";
   if (t.includes("FINAL FORECAST")) return "🎯";
   if (t.includes("UNCERTAIN")) return "⚠️";
-  if (t.includes("SUPERFORECASTER")) return "🔮";
+  if (t.includes("FORECAST ANALYSIS")) return "🔮";
   return "▪️";
 }
 

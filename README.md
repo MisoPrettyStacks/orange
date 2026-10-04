@@ -25,7 +25,7 @@ This is a rebuild of the original - version as a **single static site** — a Re
 | Paid Claude model | `openrouter/free` — OpenRouter's zero-cost router, $0/M tokens |
 | Deployed on - | static build, deployed on GitHub Pages via GitHub Actions |
 
-The structured Tetlock-style prompt (Question Triage, CHAMP framework, Final Forecast, Key Uncertainties), live streaming, and the retro-cyberpunk terminal-zine look are preserved.
+The structured prompt (Question Triage, CHAMP framework, Final Forecast, Key Uncertainties), live streaming, and the retro-cyberpunk terminal-zine look are preserved.
 
 ### Actually free
 
@@ -51,7 +51,7 @@ Open the printed local URL, click **⚙ Settings**, and paste in a free API key 
    ```bash
    git init
    git add .
-   git commit -m "Superforecaster Engine — static rebuild"
+   git commit -m "Forecasting Engine — static rebuild"
    git branch -M main
    git remote add origin https://github.com/<your-username>/<your-repo>.git
    git push -u origin main
@@ -74,7 +74,7 @@ src/
   lib/
     openRouterClient.ts      Direct browser → openrouter.ai streaming client
     storage.ts               localStorage-backed history (replaces Postgres)
-    systemPrompt.ts           The structured superforecasting prompt
+    systemPrompt.ts           The structured forecasting prompt
 .github/workflows/deploy.yml  Free CI/CD to GitHub Pages
 ```
 

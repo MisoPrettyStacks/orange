@@ -11,10 +11,10 @@ export interface Forecast {
   createdAt: string; // ISO timestamp
 }
 
-const HISTORY_KEY = "superforecaster.history.v1";
-const API_KEY_KEY = "superforecaster.openRouterApiKey.v1";
-const MODEL_KEY = "superforecaster.model.v1";
-const SEARCH_KEY = "superforecaster.webSearch.v1";
+const HISTORY_KEY = "forecast-engine.history.v1";
+const API_KEY_KEY = "forecast-engine.openRouterApiKey.v1";
+const MODEL_KEY = "forecast-engine.model.v1";
+const SEARCH_KEY = "forecast-engine.webSearch.v1";
 
 // openrouter/free is OpenRouter's zero-cost router: it auto-selects from
 // their pool of free models, with automatic fallback if one is rate

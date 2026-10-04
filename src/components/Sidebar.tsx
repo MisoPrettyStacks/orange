@@ -19,7 +19,7 @@ export function Sidebar({ forecasts, activeId, onSelect, onDelete, onNew, onOpen
           KINDA
         </h1>
         <p className="mt-1 text-[10px] uppercase tracking-widest text-gray-400">
-          Superforecaster Engine
+          Forecasting Engine
         </p>
       </div>
 

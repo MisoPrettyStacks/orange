@@ -45,7 +45,7 @@ export async function streamForecast(
         // Optional, but OpenRouter recommends these for rate-limit fairness
         // and so the app shows up correctly if you check your usage dashboard.
         "HTTP-Referer": window.location.origin,
-        "X-Title": "Superforecaster Engine",
+        "X-Title": "Forecasting Engine",
       },
       body: JSON.stringify({
         model,
